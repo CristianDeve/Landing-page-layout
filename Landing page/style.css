@@ -1,0 +1,306 @@
+@import url('https://fonts.cdnfonts.com/css/claro-2');
+
+body{
+    margin: 0;
+    font-family: 'Claro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+header .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+.quadrado{
+    width: 25px; height: 25px;
+    background-color: #43a2f6;
+    margin-left: 4px;
+}
+
+.quadrado::after{
+    content: "LOG-O";
+    margin-left: 50px;
+    display: inline-block;
+    width: 52px;
+    margin-top: 5px;
+    color: #43a2f6;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu
+nav ul,
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu
+nav ul{
+    display: flex;
+}
+
+
+.menu
+nav a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 20px;
+    color: #414a51;
+}
+
+
+.menu
+nav .active a,
+nav a:hover{
+    background-color:#43a2f6;
+    color: whitesmoke;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.imagem{
+    margin-right: 20px;
+}
+
+.title_geral{
+    display: flex;
+    flex-direction: column;
+    width: 600px; height: 400px;
+    justify-content: center;
+}
+
+.title1{
+    color: #1AACEB;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.title2 h1{
+    font-size: 70px;
+    line-height: 60px;
+    padding: 0;
+    margin: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.btn
+nav ul,
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn
+nav ul{
+    display: flex;
+}
+
+
+.btn
+nav a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #414a51;
+    font-size: 20px;
+}
+
+
+.btn
+nav .active a,
+nav a:hover{
+    background-color:#43a2f6;
+    color: whitesmoke;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #43a2f6;
+    height: 160px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.option_geral{
+    display: flex;
+    align-items: center;
+}
+
+.option1, .option2, .option3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    width: 260px;
+    padding: 40px;
+}
+
+.option_geral a, h2{
+    text-decoration: none;
+    margin: 0;
+    color: whitesmoke;
+    line-height: 20px;
+}
+
+.option1{
+    transition: transform 0.3s ease;
+
+}
+
+.option1:hover{
+    transform: scaleX(1.1);
+    background-color: #e9e9e9;
+}
+
+.option1 a{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option1:hover a{
+    color: #1a212d;
+}
+
+.option1 h2{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option1:hover h2{
+    color: #1a212d;
+}
+
+.option2{
+    transition: transform 0.3s ease;
+
+}
+
+.option2:hover{
+    transform: scaleX(1.1);
+    background-color: #e9e9e9;
+}
+
+.option2 a{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option2:hover a{
+    color: #1a212d;
+}
+
+.option2 h2{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option2:hover h2{
+    color: #1a212d;
+}
+
+.option3{
+    transition: transform 0.3s ease;
+}
+
+.option3:hover{
+    transform: scaleX(1.1);
+    background-color: #e9e9e9;
+}
+
+.option3 a{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option3:hover a{
+    color: #1a212d;
+}
+
+.option3 h2{
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+.option3:hover h2{
+    color: #1a212d;
+}
+
+.setas{
+    margin-left: 70px;
+}
+
+.seta1{
+    margin-right: 50px;
+}
+
+.seta1 img{
+    transition: transform 0.3s ease;
+}
+
+.seta1:hover img{
+    transform: scale(1.2);
+}
+
+.seta2 img{
+    transition: transform 0.3s ease;
+}
+
+.seta2:hover img{
+    transform: scale(1.2);
+}
